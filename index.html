@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulti-Developer Protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(54, 48, 48);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(36, 32, 32);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(36, 32, 32);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background: white;
+            height: 1.2px;
+            margin: 40px 84px;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+
+        }
+        .leftSection .buttons {
+            padding: 50px 0px;
+        }
+        .leftSection .btn {
+padding: 12px;
+background-color:#ff004f;
+color: white;
+border: 2px solid white;
+border-radius: 6px;
+font-size: 20px;
+cursor: pointer;
+          
+
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color:#ff004f;
+        }
+
+        .textgray {
+            color: gray;
+        }
+
+        #element {
+            color: #ff004f;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image_top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical_title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical_desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(27, 24, 24);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: white;
+            padding: 12px 0px;
+        }
+        form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: black;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+        }
+        .footerfirst{
+
+
+        display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.subtn{
+    background-color: #ff004f;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> ꧁๖ۣۜßulτ͢͢͢i's Protfolio </div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">AboutServices</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a> </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi , my name is <span class="purple">Bulti</span>
+                <div>and i am a passionate</div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+               <div class="buttons">
+                <button class="btn">download Resume</button>
+                <button class="btn">visit Github</button>
+               </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="pic.png" alt="">
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="textgray"> What i have done so far</span>
+            <h1>Knowledge</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image_top" src="developer.png" alt="">
+                    <div class="vertical_title">
+                        HTML DEVELOPER
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur neque corporis quibusdam
+                        ea enim nihil labore. Quos odit maiores aliquam dicta, quae dolores.
+                    </div>
+
+                </div>
+
+                <div class="vertical">
+                    <img class="image_top" src="developer.png" alt="">
+                    <div class="vertical_title">
+                       JAVA
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur neque corporis quibusdam
+                        ea enim nihil labore. Quos odit maiores aliquam dicta, quae dolores.
+
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="developer.png" alt="">
+                    <div class="vertical_title">
+                        PYTHON
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur neque corporis quibusdam
+                        ea enim nihil labore. Quos odit maiores aliquam dicta, quae dolores.
+
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="developer.png" alt="">
+                    <div class="vertical_title">
+                       C
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur neque corporis quibusdam
+                        ea enim nihil labore. Quos odit maiores aliquam dicta, quae dolores.
+
+
+                    </div>
+                </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footerfirst"><h3>Bulti's Developer Protfolio </h3>
+
+                
+            </div>
+            <div class="footersecond">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2 subtn ">Submit</button>
+            </form>
+            </div>
+
+        </div>
+        <div class="footer-rights">Copyright &copy; All rights reservest</div>
+    </footer>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Devloper', 'Web Designer', 'java programer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
